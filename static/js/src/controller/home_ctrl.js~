@@ -1,0 +1,5 @@
+var home = angular.module("home_ctrl",["home_sv"]);
+home.controller("homeCtrl", function($scope){
+    "ngInject";
+})
+

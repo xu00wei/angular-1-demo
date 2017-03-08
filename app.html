@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="demoApp" ng-controller="appCtrl" lock-scroll="indexScope.isLockScroll">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title ng-bind="html.title"></title>
+</head>
+<body>
+    <div ui-view></div>
+</body>
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="../static/js/module/angular.min.js"></script>
+    <script src="../static/js/module/angular-ui-router.min.js"></script>
+
+     <!-- Angular Material Library -->
+     
+    <script src="../static/js/debug/common.js"></script>
+    <script src="../static/js/debug/controller.js"></script>
+    <script src="../static/js/debug/directive.js"></script>
+    <script src="../static/js/debug/service.js"></script>
+</html>
